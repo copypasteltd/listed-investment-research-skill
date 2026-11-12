@@ -1,0 +1,7 @@
+# Optional offline PDF publisher and chart helpers; Python >=3.10.
+reportlab>=4.2,<5
+PyMuPDF>=1.24,<2
+Pillow>=10.4,<13
+matplotlib>=3.8,<4
+pandas>=2.2,<4
+numpy>=1.26,<3

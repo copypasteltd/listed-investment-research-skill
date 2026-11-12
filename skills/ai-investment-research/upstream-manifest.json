@@ -1,0 +1,1177 @@
+{
+  "schema_version": "1.0",
+  "acquired_at": "2026-11-12T17:16:44.483007+00:00",
+  "policy": "Pinned immutable upstream sources, byte-preserved; integration behavior lives outside vendor.",
+  "repositories": [
+    {
+      "repo": "anthropics/financial-services",
+      "commit": "60565064557ca77b12f62aa7877f365d111c129d",
+      "tree_sha": "97e141300bf70ab42e2aa3af5b841e415c7d916f",
+      "root": "vendor/anthropics-financial-services",
+      "license": "vendor/anthropics-financial-services/LICENSE"
+    },
+    {
+      "repo": "tradermonty/claude-trading-skills",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "tree_sha": "8c4f09bc45ea0808faad80ae155add4d140a9631",
+      "root": "vendor/tradermonty",
+      "license": "vendor/tradermonty/LICENSE"
+    },
+    {
+      "repo": "rollingSirius/equity-research-skill",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "tree_sha": "6cac693545538a6b7606e8f24a9862190ac80fa5",
+      "root": "vendor/equity-research",
+      "license": "vendor/equity-research/LICENSE"
+    }
+  ],
+  "skills": [
+    {
+      "name": "sector-overview",
+      "repo": "anthropics/financial-services",
+      "commit": "60565064557ca77b12f62aa7877f365d111c129d",
+      "path": "vendor/anthropics-financial-services/plugins/vertical-plugins/equity-research/skills/sector-overview",
+      "file_count": 1
+    },
+    {
+      "name": "scenario-analyzer",
+      "repo": "tradermonty/claude-trading-skills",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "path": "vendor/tradermonty/skills/scenario-analyzer",
+      "file_count": 5
+    },
+    {
+      "name": "technical-analyst",
+      "repo": "tradermonty/claude-trading-skills",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "path": "vendor/tradermonty/skills/technical-analyst",
+      "file_count": 11
+    },
+    {
+      "name": "macro-regime-detector",
+      "repo": "tradermonty/claude-trading-skills",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "path": "vendor/tradermonty/skills/macro-regime-detector",
+      "file_count": 31
+    },
+    {
+      "name": "equity-research-skill",
+      "repo": "rollingSirius/equity-research-skill",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "path": "vendor/equity-research",
+      "file_count": 47
+    }
+  ],
+  "files": [
+    {
+      "path": "vendor/anthropics-financial-services/LICENSE",
+      "repo": "anthropics/financial-services",
+      "upstream_path": "LICENSE",
+      "commit": "60565064557ca77b12f62aa7877f365d111c129d",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "git_blob_sha": "d645695673349e3947e8e5ae42332d0ac3164cd7",
+      "size": 11358,
+      "source_url": "https://github.com/anthropics/financial-services/blob/60565064557ca77b12f62aa7877f365d111c129d/LICENSE"
+    },
+    {
+      "path": "vendor/anthropics-financial-services/plugins/vertical-plugins/equity-research/skills/sector-overview/SKILL.md",
+      "repo": "anthropics/financial-services",
+      "upstream_path": "plugins/vertical-plugins/equity-research/skills/sector-overview/SKILL.md",
+      "commit": "60565064557ca77b12f62aa7877f365d111c129d",
+      "sha256": "8d4b7b47c3fe1591bde0a4260b1ffbe489e7ddbe3eddd3dbeb046ce29f315608",
+      "git_blob_sha": "edd4cf59305095b46b6feb580271a772fdfd1a59",
+      "size": 3458,
+      "source_url": "https://github.com/anthropics/financial-services/blob/60565064557ca77b12f62aa7877f365d111c129d/plugins/vertical-plugins/equity-research/skills/sector-overview/SKILL.md"
+    },
+    {
+      "path": "vendor/equity-research/.github/workflows/ci.yml",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": ".github/workflows/ci.yml",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "7c0180a460a00d7e59e81646185e2bc9d21759829f6c43d26794cd2d2ddbd38d",
+      "git_blob_sha": "6f4a521510ae0bb770cef3f512f36ee8480ec4dc",
+      "size": 718,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/.github/workflows/ci.yml"
+    },
+    {
+      "path": "vendor/equity-research/.github/workflows/release.yml",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": ".github/workflows/release.yml",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "d3ebab9745b67ab44081f0d00af5cb80152b93fa150779971ff2df667dba74ea",
+      "git_blob_sha": "97d459878b57d741593abb590fabd5b962321466",
+      "size": 1635,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/.github/workflows/release.yml"
+    },
+    {
+      "path": "vendor/equity-research/.gitignore",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": ".gitignore",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "c7713b1db4ef32878b387de9589165e91b232aa7a6f17776e59bd4fce4ce4ccf",
+      "git_blob_sha": "2dfb14f856e5e179baa2f1212e7ccdf6f7cc0271",
+      "size": 46,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/.gitignore"
+    },
+    {
+      "path": "vendor/equity-research/Example/EXAMPLE_GOOGL.en.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "Example/EXAMPLE_GOOGL.en.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "cd1814f414190c1fecd4d13cc4d1affc55db7ed2e8b786e0f1f693a9879fa861",
+      "git_blob_sha": "29f3079be39f52c7fd86d04afe49782aee544a87",
+      "size": 38033,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/Example/EXAMPLE_GOOGL.en.md"
+    },
+    {
+      "path": "vendor/equity-research/Example/EXAMPLE_GOOGL.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "Example/EXAMPLE_GOOGL.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "4f8079e8612d4ee6242f17fbfe0a4b2171c1fb488aa3847777c169e1e6ea4d5c",
+      "git_blob_sha": "7ede58cfa86ba31fef4138d0708d21251f9c63df",
+      "size": 32712,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/Example/EXAMPLE_GOOGL.md"
+    },
+    {
+      "path": "vendor/equity-research/Example/EXAMPLE_NVDA.en.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "Example/EXAMPLE_NVDA.en.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "e7c0e85de9b04ea00b37885cb0a90dd5a71384a8a2ad18a623763349794ba0d0",
+      "git_blob_sha": "6f2b0e16d0e9d56de78272cd3b08c2fec98ca4fa",
+      "size": 25765,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/Example/EXAMPLE_NVDA.en.md"
+    },
+    {
+      "path": "vendor/equity-research/Example/EXAMPLE_NVDA.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "Example/EXAMPLE_NVDA.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "5a8d09cf96003423135084ff6d041503f9eb430d7e04d2781b0dc46f44bd5da7",
+      "git_blob_sha": "b704734e93130cea50480d9482b15e70e3b19d98",
+      "size": 22342,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/Example/EXAMPLE_NVDA.md"
+    },
+    {
+      "path": "vendor/equity-research/LICENSE",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "LICENSE",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "5ee65f28dc5ac4431cd5211ab44f1d72f13ea5d399ef7b6fcecb29b32f0c4284",
+      "git_blob_sha": "d1541cfa92c97da69418cce281c2888bfb96e140",
+      "size": 1063,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/LICENSE"
+    },
+    {
+      "path": "vendor/equity-research/README.en.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "README.en.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "8828e4e795cf959841d29259a5786c16672d3d93d701222a1d583a14e2e4b13c",
+      "git_blob_sha": "684346a3ee53c724af0f9027040c0ef9311afd11",
+      "size": 240,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/README.en.md"
+    },
+    {
+      "path": "vendor/equity-research/README.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "README.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "cc66f723dff5afd3c2ac19fe0d0fc83f0641fac114e1544f58366ff364a7ee78",
+      "git_blob_sha": "a0292f48b8d8c869589e1a6a05d19c17995a8ece",
+      "size": 22322,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/README.md"
+    },
+    {
+      "path": "vendor/equity-research/README.zh-CN.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "README.zh-CN.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "e3489f6d766f0f34b67c25cd8c0bf0d4252e49c8575753b0a13512d76c58bfe3",
+      "git_blob_sha": "303f7bfa3ee5dacf4c38e703207919b7a82e91bb",
+      "size": 19091,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/README.zh-CN.md"
+    },
+    {
+      "path": "vendor/equity-research/SKILL.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "SKILL.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "25d6df832694fc7a94dae29d2662c796c556a986d9a5ba68d119767c69c80c76",
+      "git_blob_sha": "41aca8d090b8377113618d971d13d2daee055055",
+      "size": 12795,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/SKILL.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/autos-ev.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/autos-ev.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "66f912dbfa10174896df4686233d6ffffae6f0603ecd6e98e8e2758cca4bd863",
+      "git_blob_sha": "dacba5d79809d3a740cde7a888d9bf97673c14f9",
+      "size": 16650,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/autos-ev.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/banks.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/banks.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "8df77ecbf9a2bf1a4448bafd65107764058be6959e989477a0f3c56c6d38d18d",
+      "git_blob_sha": "765adcf88b3cb27a61536bf4062f405a5622ec60",
+      "size": 17645,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/banks.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/capital-markets.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/capital-markets.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "a2bdf8682296fe778f02e507eceb7f0d145ee09b699f09486eee9ced67c511d8",
+      "git_blob_sha": "6143421e389029da405a90fcdc4a9cdf14ef14f0",
+      "size": 5188,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/capital-markets.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/consumer.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/consumer.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "52ca3a094bc2e134b1a7b7ec7a46e3a402fcab3e86da15de0a0af1c577f243d2",
+      "git_blob_sha": "c223995ce8323a14244e23d64212042ff143d91d",
+      "size": 16884,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/consumer.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/energy.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/energy.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "37637424b05dd1a3cc2e28eef7243840cd3acf7a7eb5386f3f76dc8446e444c1",
+      "git_blob_sha": "0fd49953a82ef30786dad0f208c06f0fb79d485d",
+      "size": 17741,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/energy.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/hardware.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/hardware.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "ffdeaecd32d38b123a5a2b09580158644cd55cdc267110de4a721e1573cd0766",
+      "git_blob_sha": "053c9aaba7884908ca3ab2c025aeb78dd508a96c",
+      "size": 4812,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/hardware.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/healthcare-services.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/healthcare-services.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "ef4b8cbb120402215295643345ab9ca5836772f2d97c2eb012063ddcb10a578c",
+      "git_blob_sha": "5525af2dda2f5e6c6c569ade725cd6c626af56ff",
+      "size": 4720,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/healthcare-services.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/industrials.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/industrials.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "df1e040f18e39699ac21c49e7fd835e40ed29d6dd40420c36ac1fe2960a3cef3",
+      "git_blob_sha": "08fe2f6ef73082e96df0cba7bd1d4166f63f2bfb",
+      "size": 16375,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/industrials.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/insurance.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/insurance.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "2ea457a30b0e7166f8859485afc8499aec85ab97bc4ba1dd5f402f11cf8eaa23",
+      "git_blob_sha": "3153825d6ea73e605346aa01bfe04ace87cf8e25",
+      "size": 18058,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/insurance.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/internet-platform.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/internet-platform.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "420f6ddde30a7c6285018c9bf9d88535139ac19f26d1b4d001cea4d687c0bdb8",
+      "git_blob_sha": "71c9ceca25561e831fb2c9598af462bebbe15d32",
+      "size": 17666,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/internet-platform.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/media-gaming.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/media-gaming.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "497d711b508eb726d7b702c25d18680b94f9a56db5b37eb060fb4f9b748c57c7",
+      "git_blob_sha": "14a284c404458209223309fff0b3fdce5eca9d23",
+      "size": 4625,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/media-gaming.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/metals-mining.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/metals-mining.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "3d3092926f2bea36c2459b8a5b17058d2eb07eaad56fe3b88d30bbb6a1e9809d",
+      "git_blob_sha": "bcf93e4ed1c971bdfbad2da0877dc5bfa341dc15",
+      "size": 16737,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/metals-mining.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/payments-fintech.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/payments-fintech.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "c9bf74a56db0d719a92afe7fad49b6c4dc309eff07400171679074045e6d36aa",
+      "git_blob_sha": "b7c3c2a505b155353271c7d854be8ee5536fcdad",
+      "size": 16804,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/payments-fintech.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/pharma.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/pharma.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "c2e67d4a8f61f3d5e33f512d8e7b61758a2b23a42820f3d6338d517437f866b2",
+      "git_blob_sha": "ad4fa13803304d4d14583acd46456b67482639e9",
+      "size": 17450,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/pharma.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/reits.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/reits.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "ebd1b1fe2c7a7f4ad03bbaa7ffdd3082ccd05422a6d962e977e9f14f55002698",
+      "git_blob_sha": "37913de2da21790e5fbcf7a63bdc34507beb186c",
+      "size": 16648,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/reits.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/saas.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/saas.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "a87621387806b33f643d4474e72ef79ecad3b1b54fa7b83d80e7082e14fe8f24",
+      "git_blob_sha": "0682b94e854b9fb398aa306f4910bde5da36e253",
+      "size": 16582,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/saas.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/semiconductors.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/semiconductors.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "28b0ece67139509f3959cef6226ab29ca33352450eb785b6107f4d5fd10eb702",
+      "git_blob_sha": "38103eb9561ad3565d83ec8dffca066e889052fb",
+      "size": 18591,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/semiconductors.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/telecom.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/telecom.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "927d8bbf352da64ca418f6f3ca676921878a1e5587f3f9fd10b174920f8d32a3",
+      "git_blob_sha": "422dbbcab7be2e62259e12a1bd51c4fe68a02e3a",
+      "size": 16441,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/telecom.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/transport.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/transport.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "aa54a9b862684fffade6de2ef122a7b96d4ff5f8a0ffe1a8f354ddd2f06ab0e3",
+      "git_blob_sha": "18b2dfca27863c4887df3f374a4127305421682e",
+      "size": 16999,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/transport.md"
+    },
+    {
+      "path": "vendor/equity-research/industries/utilities.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "industries/utilities.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "8d7aa83422becbe38300ecb011cbfe4217a80285b84e936cf9837f589d82b5f1",
+      "git_blob_sha": "cfc63e8510f1c6e370b8273e2bfe63e1a9b7e265",
+      "size": 16874,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/industries/utilities.md"
+    },
+    {
+      "path": "vendor/equity-research/references/base-rates.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "references/base-rates.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "67cb42e700e570057434bfd22fdcea972a4cdac1647de8a67971401afd8efb04",
+      "git_blob_sha": "fb5750e4f982e1488228fbd8012ce9cee6592943",
+      "size": 3102,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/references/base-rates.md"
+    },
+    {
+      "path": "vendor/equity-research/references/cost-of-capital.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "references/cost-of-capital.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "30339b4db9929b30408c06888563d7eb9878071f42050caa860233dc25200201",
+      "git_blob_sha": "20744bd4c19f8dfe9f992b1ddd350648891a12e5",
+      "size": 2131,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/references/cost-of-capital.md"
+    },
+    {
+      "path": "vendor/equity-research/references/data-sources.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "references/data-sources.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "4d57243381c12f68b823a939528dcb0dbf466109652ec1c00a9c328df48cf6f8",
+      "git_blob_sha": "314caf28d0591fbb8ac52a6e620081ba17949b5a",
+      "size": 12954,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/references/data-sources.md"
+    },
+    {
+      "path": "vendor/equity-research/references/earnings-mode.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "references/earnings-mode.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "31b9f700f776a42696c7c2a4294ae5b4f3d4ca9b859ef10135c904cb4bf343a9",
+      "git_blob_sha": "bf5586c74d6c34004299651b8f19cd46bbc84edd",
+      "size": 12556,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/references/earnings-mode.md"
+    },
+    {
+      "path": "vendor/equity-research/references/expectations-investing.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "references/expectations-investing.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "cb54bddbea66c8086562674b4373b7cf7f6c3181c324b2ea9805ab3a1df58d15",
+      "git_blob_sha": "81c7cb54be9167b94e8865cfba7e49048f2d1f64",
+      "size": 3433,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/references/expectations-investing.md"
+    },
+    {
+      "path": "vendor/equity-research/references/forensic-accounting.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "references/forensic-accounting.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "769448da08ba95c7eea658ff1270e40b6ab1fa0d5f859dd4b8cc37954e5542fc",
+      "git_blob_sha": "24e4345327bac0fc95fa7942fe5fc24fc2e22fbd",
+      "size": 5729,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/references/forensic-accounting.md"
+    },
+    {
+      "path": "vendor/equity-research/references/industry-routing.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "references/industry-routing.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "cb1a51d7fb4beaee3596f950ec45b9d148ea15376eccfdb4843e41cfab0640d4",
+      "git_blob_sha": "fe456b87b6a37b0a4771bf985ce8e1099bd5ff7a",
+      "size": 8746,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/references/industry-routing.md"
+    },
+    {
+      "path": "vendor/equity-research/references/industry-rules.json",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "references/industry-rules.json",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "a7843bff925253d7241007026e3510697522a91f2df2a61d3185c72e55f18e8e",
+      "git_blob_sha": "6ce740bebc7dc0ef822c13263cc116510e64b1c4",
+      "size": 10871,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/references/industry-rules.json"
+    },
+    {
+      "path": "vendor/equity-research/references/markets-cn-hk.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "references/markets-cn-hk.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "55ac74e1649d66d1db131cafd41b92e221ebbf8e006293626f5811492230a3f2",
+      "git_blob_sha": "ae5faa6f8e9273b5f9ce4b410ab4fbb165b57e2e",
+      "size": 10240,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/references/markets-cn-hk.md"
+    },
+    {
+      "path": "vendor/equity-research/references/output-format.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "references/output-format.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "b60862972f078827bc31af2faa7762ae14f9daf80186182707b41d7de7cf3860",
+      "git_blob_sha": "daa5769dd1d700827a79fcd8f9a8f00eaaddbe75",
+      "size": 6323,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/references/output-format.md"
+    },
+    {
+      "path": "vendor/equity-research/references/report-template.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "references/report-template.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "d1c4798e76555e298a7a95fa5e6940a6ff50740d59c67f980fcac178e1ef1fdf",
+      "git_blob_sha": "a4f5f6b92ddf7bb2b693e2f7c1c3c0c7ae4de3e0",
+      "size": 7838,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/references/report-template.md"
+    },
+    {
+      "path": "vendor/equity-research/references/valuation-methods.md",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "references/valuation-methods.md",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "81d01ec1f939fedf113df8a191b5926ef4de26944170c9b98e41e9a4e6cbc484",
+      "git_blob_sha": "0fa837c272f7e27ab8c60aee036c0062e1672c81",
+      "size": 11589,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/references/valuation-methods.md"
+    },
+    {
+      "path": "vendor/equity-research/scripts/check_research_output.py",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "scripts/check_research_output.py",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "0c15628acd037f5b83c3a04ce8fbbb85fc5af546b290837ab4ea9647d97b4b52",
+      "git_blob_sha": "a0adec90bf2047749b86b17af46feb70d13d2421",
+      "size": 38936,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/scripts/check_research_output.py"
+    },
+    {
+      "path": "vendor/equity-research/scripts/dcf.py",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "scripts/dcf.py",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "a4aa542a0762c4e50241835defcf6b0f91c5fd5af87e062640fed0f7b54f16cd",
+      "git_blob_sha": "5dc5d60173ce16b981f2c9418e6eae532fa0b483",
+      "size": 18609,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/scripts/dcf.py"
+    },
+    {
+      "path": "vendor/equity-research/tests/test_check_research_output.py",
+      "repo": "rollingSirius/equity-research-skill",
+      "upstream_path": "tests/test_check_research_output.py",
+      "commit": "3d94e64ff53b325d866ea4bff69ad81a5adca8f5",
+      "sha256": "2e154b37a64483f86d41dae20241e30eb1528683d7237d2e79fb0c5cbc377293",
+      "git_blob_sha": "b0fdd904bd5edae95c949fbe07931d7b6311907b",
+      "size": 2796,
+      "source_url": "https://github.com/rollingSirius/equity-research-skill/blob/3d94e64ff53b325d866ea4bff69ad81a5adca8f5/tests/test_check_research_output.py"
+    },
+    {
+      "path": "vendor/tradermonty/LICENSE",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "LICENSE",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "87c93cde8c3a000c19b0c790cd4f7a4e4cb8da5bc6b11e0939bf6df99e245d15",
+      "git_blob_sha": "f04a7bced8bb1f03ce92fbdc6912594b0c37d3c0",
+      "size": 1068,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/LICENSE"
+    },
+    {
+      "path": "vendor/tradermonty/agents/scenario-analyst.md",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "agents/scenario-analyst.md",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "cf37bf02bb3cdddcc04ebaeda48ce78a60d640576d2a25372051fc77a0ea3554",
+      "git_blob_sha": "dfca42c0f167d23f422e3b6febe47284a8b2f476",
+      "size": 6853,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/agents/scenario-analyst.md"
+    },
+    {
+      "path": "vendor/tradermonty/agents/strategy-reviewer.md",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "agents/strategy-reviewer.md",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "de39a1e6cb480a0f1dd3b7d35bd20c052f482de66c25c97eb7a63de288493e24",
+      "git_blob_sha": "61de4b83aca8aec10f919e9c5255aa4494accfb4",
+      "size": 6404,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/agents/strategy-reviewer.md"
+    },
+    {
+      "path": "vendor/tradermonty/scripts/check_provider_contracts.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "scripts/check_provider_contracts.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "d00ddc5222a2b4d9f9b9f86906e7c60ff7c9620bd64da6b8118b9d09e3e89291",
+      "git_blob_sha": "3c878729cf062ea45130f0ec4d40205b083182cd",
+      "size": 28373,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/scripts/check_provider_contracts.py"
+    },
+    {
+      "path": "vendor/tradermonty/scripts/check_skill_catalog.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "scripts/check_skill_catalog.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "92219d0b460632a614e411240bb9d9a0ac8b8a792829059eb172d794549a937e",
+      "git_blob_sha": "b959cea025442ff66d94a1c8a544ef2c1a08665d",
+      "size": 24086,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/scripts/check_skill_catalog.py"
+    },
+    {
+      "path": "vendor/tradermonty/scripts/check_skill_deps.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "scripts/check_skill_deps.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "115c259500aa53696ffff0d5f1b9d5771b847e87b39de07d6d05bf0394b10881",
+      "git_blob_sha": "377d82a4340750d99eebeb08d1f226f581eb9011",
+      "size": 38608,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/scripts/check_skill_deps.py"
+    },
+    {
+      "path": "vendor/tradermonty/scripts/ci_test_matrix.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "scripts/ci_test_matrix.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "888c18431789319d35099df27471e4cc3c7d43bdfb4956e4e09b98e8c92395e2",
+      "git_blob_sha": "0dd2e00aca0ff4750317d77a51fa21542fa08889",
+      "size": 43028,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/scripts/ci_test_matrix.py"
+    },
+    {
+      "path": "vendor/tradermonty/scripts/fmp_client/compat_v3_to_stable.py.tmpl",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "scripts/fmp_client/compat_v3_to_stable.py.tmpl",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "c549cf54f9a620577b01af2707aa5832543586616c975cf08265966a677f5b67",
+      "git_blob_sha": "20ca8b43929ffcf0ae981b5aa4d9ce3870883ffc",
+      "size": 5935,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/scripts/fmp_client/compat_v3_to_stable.py.tmpl"
+    },
+    {
+      "path": "vendor/tradermonty/scripts/fmp_client/core_template.py.tmpl",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "scripts/fmp_client/core_template.py.tmpl",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "51a3cd1d614ad62ebc862f11fad5150cda7c91655d957c258119c1e083bb3160",
+      "git_blob_sha": "0ccff2b15972655633776185c39ac9100be49377",
+      "size": 20101,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/scripts/fmp_client/core_template.py.tmpl"
+    },
+    {
+      "path": "vendor/tradermonty/scripts/fmp_client/registry.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "scripts/fmp_client/registry.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "cc33ec56ca788479caf125927d71b31c3fdc62ef4f29308cc425540852b6200e",
+      "git_blob_sha": "60da43fc5267f223a2c72f65dae9ef141331864e",
+      "size": 12550,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/scripts/fmp_client/registry.py"
+    },
+    {
+      "path": "vendor/tradermonty/scripts/generate_catalog_from_index.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "scripts/generate_catalog_from_index.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "29ecf77529c35a8b1dae187e8b04c2a08dcfcbdf0eb363bf908cc97c284bb517",
+      "git_blob_sha": "c54866ca810efb5fefbcdfd753dd3cfeb2c536e1",
+      "size": 18996,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/scripts/generate_catalog_from_index.py"
+    },
+    {
+      "path": "vendor/tradermonty/scripts/generate_fmp_client.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "scripts/generate_fmp_client.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "a4a421dcbec3bd461d1902f8bd00f9e045668cdd6a02b7e3ddd25dc88363a250",
+      "git_blob_sha": "93da41f8517d5dd2c15deb501bdd3cf97b51daaa",
+      "size": 7377,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/scripts/generate_fmp_client.py"
+    },
+    {
+      "path": "vendor/tradermonty/scripts/provider_contracts.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "scripts/provider_contracts.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "0a9d23b75f9024aa347fbce89ffa0bf2a6c320e81f60fce80fed3bf88aaa070b",
+      "git_blob_sha": "11da8e9208e8e757ebab5df4ba1700d69e5ba771",
+      "size": 22289,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/scripts/provider_contracts.py"
+    },
+    {
+      "path": "vendor/tradermonty/scripts/smoke_contracts_runner.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "scripts/smoke_contracts_runner.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "5187a2d4171818d79e77e08c90f34e02ae26ae7e3739f4bd34266b12daca8de7",
+      "git_blob_sha": "200be8349ed11e39da5f7af6c8e5fd2bb08d3647",
+      "size": 8661,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/scripts/smoke_contracts_runner.py"
+    },
+    {
+      "path": "vendor/tradermonty/skill-packages/macro-regime-detector.skill",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skill-packages/macro-regime-detector.skill",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "142e98813c6c2a01889d57d3403ba1f051a4f37f4eeebd0bf58273235453d1a8",
+      "git_blob_sha": "64e2f894e2705bee29138fde1f77f17c0022659d",
+      "size": 46672,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skill-packages/macro-regime-detector.skill"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/SKILL.md",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/SKILL.md",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "a60479b156049b91316757729e25669459f3f7ac83710a17e6dd401a36090108",
+      "git_blob_sha": "25dabc52d3cd3acd3a5191c234f528ef8bd7095e",
+      "size": 4848,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/SKILL.md"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/references/historical_regimes.md",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/references/historical_regimes.md",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "2ae2139002f042e365641f99abfc4eae803c47cac499e678adecc447ca54a4fc",
+      "git_blob_sha": "af451060fd4dd34875390a8b7a9f7000c4af9cd1",
+      "size": 4808,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/references/historical_regimes.md"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/references/indicator_interpretation_guide.md",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/references/indicator_interpretation_guide.md",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "bbf0e06f6e31442765d2f315d68e82af8536e6d32297accdf5ca51e706249dfe",
+      "git_blob_sha": "b7e988f5cce31a118dc2f3d980c4d82efafea583",
+      "size": 6311,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/references/indicator_interpretation_guide.md"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/references/regime_detection_methodology.md",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/references/regime_detection_methodology.md",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "c8fa6cc47e3726f0da565034fc51e9b9acaad5782cdfc9291a2f7f63dfce3905",
+      "git_blob_sha": "dd1156fc131e7f5f7f6698311320d69087bbd374",
+      "size": 5445,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/references/regime_detection_methodology.md"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/requirements.txt",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/requirements.txt",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "9d26bfd5639febdd01bce4d287ed386d17934db7a9506c3717b51dd6335f8b84",
+      "git_blob_sha": "2db93844ebd6ade2ab5f17d3d1d977091337ee25",
+      "size": 33,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/requirements.txt"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/calculators/__init__.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/calculators/__init__.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "bfda19a3cc7d0f59650edb8fd1eb0bc779c078f11f39931cc52b915c7c9cfec5",
+      "git_blob_sha": "9d1f09057ef6cdd5c6d293411ecd61eb70f4cab6",
+      "size": 49,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/calculators/__init__.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/calculators/concentration_calculator.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/calculators/concentration_calculator.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "97547b646ef459bebf43f33138fd1abbb4850fdb87042d008c970453be3f1909",
+      "git_blob_sha": "02153b0da7ff22a1c0bab8f4b5f172067f839772",
+      "size": 6043,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/calculators/concentration_calculator.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/calculators/credit_conditions_calculator.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/calculators/credit_conditions_calculator.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "8ad1416af0785b1504941c882b6b5451a1b2c2d05a925edaf9d97f185fdbe1c9",
+      "git_blob_sha": "e1b77c7c155e27c38d1e21613e7ccf946c03fbe7",
+      "size": 4006,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/calculators/credit_conditions_calculator.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/calculators/equity_bond_calculator.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/calculators/equity_bond_calculator.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "8796ad43a7ad662873199a95d9d08712684d62fc7fa6942bc176f90b73ac4568",
+      "git_blob_sha": "f53082bb25e2c3518183408d12211dcd057235bd",
+      "size": 6829,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/calculators/equity_bond_calculator.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/calculators/sector_rotation_calculator.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/calculators/sector_rotation_calculator.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "cd6112413e65cb80830853faf573beb9a2aaa4908db3328699a5789fc48ef81e",
+      "git_blob_sha": "46197066b91e163d6bb61d8154e3da645260c98e",
+      "size": 3965,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/calculators/sector_rotation_calculator.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/calculators/size_factor_calculator.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/calculators/size_factor_calculator.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "faf6771ae4be9f3fb109ebf9ee59748b50e2a34ad1567a08df6dbb37d8a4a349",
+      "git_blob_sha": "9a1ba27aebef125dc0431eb4dbb6334fed66c189",
+      "size": 4247,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/calculators/size_factor_calculator.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/calculators/utils.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/calculators/utils.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "ca7e904ae57c20900f52b37413a164c5d3817e4e714e034c8f742b4a83bcb9cb",
+      "git_blob_sha": "57d0cf004ad56f9b960bc49e4447ac26fa3e17b5",
+      "size": 11482,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/calculators/utils.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/calculators/yield_curve_calculator.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/calculators/yield_curve_calculator.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "6b8a41a7c3fe7923889384f6f3c9b27d1e82e3b1a6e01f3d1b34649e3d90cfdc",
+      "git_blob_sha": "6cd895b43fa442863bf5762b64af0f5065c39ddf",
+      "size": 9848,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/calculators/yield_curve_calculator.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/fmp_client.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/fmp_client.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "7c668efe1bcb2985fb405d096f14e065db80c2189f6b70e0d7b47889a1ec9c3a",
+      "git_blob_sha": "dc4c466611daf9a8bd0411de7f690a130984f641",
+      "size": 17957,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/fmp_client.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/macro_regime_detector.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/macro_regime_detector.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "101a0455616ce2bc23f29ed65b473c59a2d56019a2b54a13b94139e8441c035f",
+      "git_blob_sha": "ba9a71c133ae95793dc6bdba231d743964ccf8e2",
+      "size": 12206,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/macro_regime_detector.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/report_generator.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/report_generator.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "ad32d8f329fae183b7c7e05107029449291bd632e6ae96930c040c2b4a000cc9",
+      "git_blob_sha": "200953ec7741082017cb68230ecc1a8fdeca50ee",
+      "size": 20405,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/report_generator.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/scorer.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/scorer.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "6215d012b7e3d3385f649eafdf5006412473d1958281c0ef5d56a66c59e16c25",
+      "git_blob_sha": "467a301ad952c9f1837051d4a7acd9d6ec58a7e7",
+      "size": 20865,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/scorer.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/tests/conftest.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/tests/conftest.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "4a953a138514847f6a2e8dd5f195e59968fe6ede1e2995d24b6ef226a9b4fb2e",
+      "git_blob_sha": "6e819ab353b5065ae5f415903dc2c33f050cb3e8",
+      "size": 314,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/tests/conftest.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_concentration.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/tests/test_concentration.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "e4a08c4228e234bfdf0ba65ffccf0dd8a39358268eabc8612d6a355e885e8cff",
+      "git_blob_sha": "2d331ae6aa16f69c86e85ac8aa2b6da28c6cac85",
+      "size": 3530,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/tests/test_concentration.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_credit_conditions.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/tests/test_credit_conditions.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "1b4c21dcf65112a9cb06e3a4aac9038d5d675a825cb132a8055cc1b5d407ba8d",
+      "git_blob_sha": "ae3e04b654b5e21c5158e8f016431fe159f506a5",
+      "size": 2267,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/tests/test_credit_conditions.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_equity_bond.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/tests/test_equity_bond.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "0861550b0aa0f2f9d0a41ed1ec4b5e9b93e59e39bf21f632f44c7881996aa322",
+      "git_blob_sha": "8f99c85f20847130c40393be0d7fc9b8d4189add",
+      "size": 2786,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/tests/test_equity_bond.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_fmp_client.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/tests/test_fmp_client.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "751f7d036250b12285ee622ebd665981e60dec352c5f159c88a609e905801d1b",
+      "git_blob_sha": "0004b8b141e7429e74555d6e551e4550b20c4bfb",
+      "size": 10522,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/tests/test_fmp_client.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_helpers.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/tests/test_helpers.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "73121b001cf9813d640cdc69c87f122c607b67c97e36b39615c379a46c603f19",
+      "git_blob_sha": "1df28ee963833cec79c09d537141dfc9dfd66666",
+      "size": 2592,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/tests/test_helpers.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_main_cli.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/tests/test_main_cli.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "57858214a9fdb3e2e1fce010976c1cbc123b64f9563cfce73dc43cddbb4e355a",
+      "git_blob_sha": "a20ee93f0ba79a58fc7fea7fb87519eb3b33ee54",
+      "size": 4600,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/tests/test_main_cli.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_packaged_deps.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/tests/test_packaged_deps.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "90184f9db383c3f025ec381ee1b323694ce2340a263c00ee90c3b1bf66864104",
+      "git_blob_sha": "4af457536b2bb1f013c06c4df3ec92f092e4cfc4",
+      "size": 4387,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/tests/test_packaged_deps.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_report_generator.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/tests/test_report_generator.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "d9482dc7cd2f753e8d27f15a110b754d30837a0c987cc261b7a3f7896ede0bfa",
+      "git_blob_sha": "601cf8ac8802af6555e67e0486a43ccbbec5914d",
+      "size": 11102,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/tests/test_report_generator.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_scorer.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/tests/test_scorer.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "372a34fc9f41b10da44dc85677e8f1cfc6da21cf8f5a98635820f5437d919e37",
+      "git_blob_sha": "41ff5f3a0b47b88afb73ead01092fe89cb4f4ae7",
+      "size": 23759,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/tests/test_scorer.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_sector_rotation.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/tests/test_sector_rotation.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "9e2274da83fcfd13b0e0abc1fec4c54491202351866c7d53dd7c361e0f2d742d",
+      "git_blob_sha": "b479ca9474fc301b845a68570736165aab63a03c",
+      "size": 3326,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/tests/test_sector_rotation.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_size_factor.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/tests/test_size_factor.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "c8860cb87511363074b69273ac2b20f2849cbf647d3a15569a8e708aa462c5b8",
+      "git_blob_sha": "8ea8b5d35a0584c42269d9fd8c726ef573b76159",
+      "size": 2262,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/tests/test_size_factor.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_utils.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/tests/test_utils.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "5952364af1d2a204e38ed29e8c46abb132644257c8ede83fd778155317de1322",
+      "git_blob_sha": "4469a8111da6fe4c90fc044b893c21df8740bd3f",
+      "size": 5552,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/tests/test_utils.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_yield_curve.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/macro-regime-detector/scripts/tests/test_yield_curve.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "d90b6ef17a9d70212e4e5d5ee233af642490023bb542babf99362972e9854d82",
+      "git_blob_sha": "9d680fbecb7400888535d5a0ac3a2f9c469dd94c",
+      "size": 6448,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/macro-regime-detector/scripts/tests/test_yield_curve.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/scenario-analyzer/SKILL.md",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/scenario-analyzer/SKILL.md",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "d5d970761233ad2b0b93742f86b08565d2515f5675e05343ef8facb569987ba4",
+      "git_blob_sha": "c32ccff9aa0a6ce40c345b3dfc9156bf5de862b0",
+      "size": 10631,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/scenario-analyzer/SKILL.md"
+    },
+    {
+      "path": "vendor/tradermonty/skills/scenario-analyzer/references/headline_event_patterns.md",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/scenario-analyzer/references/headline_event_patterns.md",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "3dd12e6bfabfccee429185085bfc5aba3aa8e6f84734bc3c085fe9385cf0ccff",
+      "git_blob_sha": "3d50025a6fa4e5be65a05c803a51ce1c22543990",
+      "size": 8059,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/scenario-analyzer/references/headline_event_patterns.md"
+    },
+    {
+      "path": "vendor/tradermonty/skills/scenario-analyzer/references/scenario_playbooks.md",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/scenario-analyzer/references/scenario_playbooks.md",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "46ddbf0ccb6b6b6fba4474e4119a861d4ceb41b6a3a0cbadd055c22891534171",
+      "git_blob_sha": "7aa235b3e030bd5ff3730f1aca305ba241189ecc",
+      "size": 8757,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/scenario-analyzer/references/scenario_playbooks.md"
+    },
+    {
+      "path": "vendor/tradermonty/skills/scenario-analyzer/references/sector_sensitivity_matrix.md",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/scenario-analyzer/references/sector_sensitivity_matrix.md",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "ac3f3d11bb3b34f3914236d373d8de275a1847d05927bc801869830a97ef25fa",
+      "git_blob_sha": "f2fa60ffeff641d9364600e957e6648a9b2aad1e",
+      "size": 9760,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/scenario-analyzer/references/sector_sensitivity_matrix.md"
+    },
+    {
+      "path": "vendor/tradermonty/skills/scenario-analyzer/scripts/tests/test_skill_contract.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/scenario-analyzer/scripts/tests/test_skill_contract.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "39b16eda78682a6d72381f9b6a2fe206c1db879dc4072763da755a844858cc2c",
+      "git_blob_sha": "49eea51886a540627c9e09835cec46a950b42ed6",
+      "size": 1450,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/scenario-analyzer/scripts/tests/test_skill_contract.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/technical-analyst/SKILL.md",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/technical-analyst/SKILL.md",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "7e5fa78475217c4d9cadea14138edeb59c6daf66e6f73160552d7640cbf66de4",
+      "git_blob_sha": "22a75ec1082f6dd3267f7a65fdc8dbd48034082c",
+      "size": 19212,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/technical-analyst/SKILL.md"
+    },
+    {
+      "path": "vendor/tradermonty/skills/technical-analyst/assets/analysis_template.md",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/technical-analyst/assets/analysis_template.md",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "0f9a703857cbfa08c32ef8c1910ad5519a6e473a4b9bdddc5c984aaa96f115df",
+      "git_blob_sha": "6966d6c4474734e3830185b2703a403010f427c2",
+      "size": 4607,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/technical-analyst/assets/analysis_template.md"
+    },
+    {
+      "path": "vendor/tradermonty/skills/technical-analyst/references/contrarian-confirmation-checklist.md",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/technical-analyst/references/contrarian-confirmation-checklist.md",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "2ae0a6900a30f0052f958e6b492eeb5a48b5118c98273e0362cc9dfb1195ee69",
+      "git_blob_sha": "d91e4605751ec8e8428f28ab1f99a830e16890eb",
+      "size": 15704,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/technical-analyst/references/contrarian-confirmation-checklist.md"
+    },
+    {
+      "path": "vendor/tradermonty/skills/technical-analyst/references/technical_analysis_framework.md",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/technical-analyst/references/technical_analysis_framework.md",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "a530ffebf10c04f28e6e2696ce1f6b0068a74ffc532e67caf7afd0fa28b31465",
+      "git_blob_sha": "559aa67db27782279f7fefc29b3cf75af24813b7",
+      "size": 10987,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/technical-analyst/references/technical_analysis_framework.md"
+    },
+    {
+      "path": "vendor/tradermonty/skills/technical-analyst/requirements.txt",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/technical-analyst/requirements.txt",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "18b5cfdab437ba11fe037dff1efa4e25c2df2c991e2d07c3490b216ef8bb7b7c",
+      "git_blob_sha": "e41327493dda7665e30c5eaa23e166a6d5717bc4",
+      "size": 128,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/technical-analyst/requirements.txt"
+    },
+    {
+      "path": "vendor/tradermonty/skills/technical-analyst/scripts/check_weekly_price_action.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/technical-analyst/scripts/check_weekly_price_action.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "6b7ba1d8ac60691badc0ed16f797e6f5864968deb8f50f7c983c267bcd4f249d",
+      "git_blob_sha": "6b0467fe34f90c503a6fa3beb81192f1cac28ea7",
+      "size": 33193,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/technical-analyst/scripts/check_weekly_price_action.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/technical-analyst/scripts/tests/test_check_weekly_price_action.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/technical-analyst/scripts/tests/test_check_weekly_price_action.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "a180a2ffb7613977645162c41e3c072ba761292036667863e96014a6834dc314",
+      "git_blob_sha": "fcc8cae68a6d74da4379a2d797d20914c5e70661",
+      "size": 36258,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/technical-analyst/scripts/tests/test_check_weekly_price_action.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/technical-analyst/scripts/tests/test_cot_market_vintage.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/technical-analyst/scripts/tests/test_cot_market_vintage.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "f80c913bb06ff984352d2c4b0ceaab58e2fcb030dd70d47d8f1432d88ed52cdb",
+      "git_blob_sha": "a8ceac7d619a7c808fbae68aa109552d56da5027",
+      "size": 5247,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/technical-analyst/scripts/tests/test_cot_market_vintage.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/technical-analyst/scripts/tests/test_skill_contract.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/technical-analyst/scripts/tests/test_skill_contract.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "a8643386d0571f4513784ee7ba316d94ae2940fb6a310f925a822d60b2b4f1e6",
+      "git_blob_sha": "f4cd0872d018920266b224a959f9057d390e3ab8",
+      "size": 3698,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/technical-analyst/scripts/tests/test_skill_contract.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/technical-analyst/scripts/tests/test_weekly_price_action.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/technical-analyst/scripts/tests/test_weekly_price_action.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "1dbc75f21427c0562d19c182699bcda15b8165210f41e9d39fd93fe3d4e71b8a",
+      "git_blob_sha": "225e0ef9b202fbd83d64e1bc27ea98a921c1da59",
+      "size": 36898,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/technical-analyst/scripts/tests/test_weekly_price_action.py"
+    },
+    {
+      "path": "vendor/tradermonty/skills/technical-analyst/scripts/weekly_price_action.py",
+      "repo": "tradermonty/claude-trading-skills",
+      "upstream_path": "skills/technical-analyst/scripts/weekly_price_action.py",
+      "commit": "4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f",
+      "sha256": "da435fa1b4e94998e4671e4f7dd8a9d6163f823ec12e62e04f1d33a3ec458747",
+      "git_blob_sha": "b6232a19f41e7451f7985e1130f80066c32251d5",
+      "size": 26003,
+      "source_url": "https://github.com/tradermonty/claude-trading-skills/blob/4251eaaeb05d720f5ffe8e899e3b6ec1cf48e96f/skills/technical-analyst/scripts/weekly_price_action.py"
+    }
+  ]
+}

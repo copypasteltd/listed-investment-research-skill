@@ -1,0 +1,715 @@
+{
+  "version": "1.1.0",
+  "archive": "ai-investment-research-v1.1.0.zip",
+  "sha256": "b4316eb63b618f47160798c18b912ad4fdab8c8c58c7542587b277ec26482298",
+  "bytes": 649287,
+  "file_count": 141,
+  "files": [
+    {
+      "path": "ai-investment-research/agents/openai.yaml",
+      "bytes": 427,
+      "sha256": "fc4f2de7228b9d5ec29a192b0758cb5a69f91c50c753a310213d05706663fc1d"
+    },
+    {
+      "path": "ai-investment-research/assets/report-template.md",
+      "bytes": 1764,
+      "sha256": "7faf48428b262762293ff5a039ba1233b316aa125aea79d55f284bee5d5a2f4e"
+    },
+    {
+      "path": "ai-investment-research/LICENSE",
+      "bytes": 1316,
+      "sha256": "4a79fdab914ecb03eb25327b0ef34ff4bda2476d6743d1995c6573ba481722c4"
+    },
+    {
+      "path": "ai-investment-research/references/company.md",
+      "bytes": 2994,
+      "sha256": "aac2203321673a742199d0bb237e17ff5b6753a64b5e399194e6dadc8d2cff1e"
+    },
+    {
+      "path": "ai-investment-research/references/coordination.md",
+      "bytes": 3117,
+      "sha256": "35fdeb55df373277f536d675fd399e13278fec451ce6ee45059e3e2d8e0332a7"
+    },
+    {
+      "path": "ai-investment-research/references/delivery.md",
+      "bytes": 4293,
+      "sha256": "f1b1179b12a15e1c443c1cc4da456677f43a1a28f3acaaaec707f151365d45a6"
+    },
+    {
+      "path": "ai-investment-research/references/event.md",
+      "bytes": 1975,
+      "sha256": "f8737fe28dc8f87bf12408c13e0a9e0866dc6435a619db0a72846f1c5ec2d42c"
+    },
+    {
+      "path": "ai-investment-research/references/evidence-contract.md",
+      "bytes": 5313,
+      "sha256": "d5b7a2dc0c4407287d704126b64a1554e92d0e87b45d8aec4d7c22a1832280de"
+    },
+    {
+      "path": "ai-investment-research/references/industry.md",
+      "bytes": 2536,
+      "sha256": "f18e074372b06dcbe463869cfeac3451cc4f4c37dcc3d7cd134c62a306e47a14"
+    },
+    {
+      "path": "ai-investment-research/references/macro.md",
+      "bytes": 2982,
+      "sha256": "d31d319b1d9712775ed0bc8e75027f3abeb78e5013fe07b7cd35a9b7c3b36233"
+    },
+    {
+      "path": "ai-investment-research/references/methodology.md",
+      "bytes": 2078,
+      "sha256": "b0e79060c787d1944d1f2e629ce76df4bed42825718bc9f8b5b61c70e10ada61"
+    },
+    {
+      "path": "ai-investment-research/references/publisher_contract.md",
+      "bytes": 7794,
+      "sha256": "fe3b79df30cc782da96a0664a2e5e781b0900f0e9f0d4cbf461d1b2ec9d5f932"
+    },
+    {
+      "path": "ai-investment-research/references/runtime-notes.md",
+      "bytes": 4735,
+      "sha256": "0560f13d311f197827028b692864c3a766eacae3c2bd01e7a24f88c2f07b3d41"
+    },
+    {
+      "path": "ai-investment-research/references/technical.md",
+      "bytes": 1788,
+      "sha256": "41bb48f3be2fc894fab55ca82bb81fc2578af924c0d74a5b8026d5386685e00a"
+    },
+    {
+      "path": "ai-investment-research/references/upstream-map.md",
+      "bytes": 3320,
+      "sha256": "92734488630a3b4b6d9d945fe67facb6f5ef04b1caf81bc4990649b778930e35"
+    },
+    {
+      "path": "ai-investment-research/requirements-report.txt",
+      "bytes": 168,
+      "sha256": "9120f7862e7ebbd55db9be1dab71c511d654306c32dd99d776462ff251d313b3"
+    },
+    {
+      "path": "ai-investment-research/scripts/chartkit.py",
+      "bytes": 8806,
+      "sha256": "dfad16fffe8162e0f2cb2bfeeb8d64340ad5ff2d3bf0b8ac2c7ee351447b33f7"
+    },
+    {
+      "path": "ai-investment-research/scripts/font_support.py",
+      "bytes": 1905,
+      "sha256": "d623e5f46ed03b9216df2b198d419a7aa6565d87f9e2962f38fb5ab673050af3"
+    },
+    {
+      "path": "ai-investment-research/scripts/install.py",
+      "bytes": 4315,
+      "sha256": "afcf98a7ca58f8e6d49480ede75d626ff9a1dd9f9af4f273fc58417d5f95c580"
+    },
+    {
+      "path": "ai-investment-research/scripts/install_local.ps1",
+      "bytes": 2591,
+      "sha256": "318410afec624978fce0ca4e2d49c8fd6cf3e81f708c7efb700cfc3dc7cc074a"
+    },
+    {
+      "path": "ai-investment-research/scripts/publisher.py",
+      "bytes": 34111,
+      "sha256": "13bf7b30b34e3ab0a1055ca92ce910fe284ea38995e8475a287e807c923f97e3"
+    },
+    {
+      "path": "ai-investment-research/scripts/research.py",
+      "bytes": 45600,
+      "sha256": "2bb379d543f467316df0c1dec013a0ab7c8c209ddfe0ad4f966156af71b79e35"
+    },
+    {
+      "path": "ai-investment-research/scripts/run_macro.py",
+      "bytes": 2582,
+      "sha256": "368c6831f9c5bb6a28b246003464432b9625ac3cb2a9472995a670c11fa34d5d"
+    },
+    {
+      "path": "ai-investment-research/scripts/test_install.py",
+      "bytes": 4736,
+      "sha256": "5c7bfb18c5046be0eac29b28bdcaac442157a109b88c3569c573b85e0ddd143b"
+    },
+    {
+      "path": "ai-investment-research/scripts/test_publisher.py",
+      "bytes": 11474,
+      "sha256": "f2c76bec03bac7a1bc721a8ad5d5c60a5ffa195a3c7692aa0e52dc5201bcffcd"
+    },
+    {
+      "path": "ai-investment-research/scripts/test_research.py",
+      "bytes": 24892,
+      "sha256": "d93879b0bda0bfe7f3e7a15b0c676e46467cf2c05c70c6114027e3897b436831"
+    },
+    {
+      "path": "ai-investment-research/settings.json",
+      "bytes": 494,
+      "sha256": "30a6ba91e1e8c8e98a0a71018042469530c09af873ac5dcd0e2992a849c9ae4b"
+    },
+    {
+      "path": "ai-investment-research/SKILL.md",
+      "bytes": 5687,
+      "sha256": "4f7b3c9286e889c6ada8f8717b6787b3557030d1eafeeefb79d5cb3b823e4c9d"
+    },
+    {
+      "path": "ai-investment-research/THIRD_PARTY_NOTICES.md",
+      "bytes": 2257,
+      "sha256": "5f8d09c0413e1078a36153e9c932c0d4559ed6db44405388ed19ab5f29228f2f"
+    },
+    {
+      "path": "ai-investment-research/upstream-manifest.json",
+      "bytes": 70823,
+      "sha256": "1b75b15de1f1e5edacb97a211e1c6e4eb6e7612ba28bcad9b00da16307dc74d6"
+    },
+    {
+      "path": "ai-investment-research/vendor/anthropics-financial-services/LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "ai-investment-research/vendor/anthropics-financial-services/plugins/vertical-plugins/equity-research/skills/sector-overview/SKILL.md",
+      "bytes": 3458,
+      "sha256": "8d4b7b47c3fe1591bde0a4260b1ffbe489e7ddbe3eddd3dbeb046ce29f315608"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/.github/workflows/ci.yml",
+      "bytes": 718,
+      "sha256": "7c0180a460a00d7e59e81646185e2bc9d21759829f6c43d26794cd2d2ddbd38d"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/.github/workflows/release.yml",
+      "bytes": 1635,
+      "sha256": "d3ebab9745b67ab44081f0d00af5cb80152b93fa150779971ff2df667dba74ea"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/.gitignore",
+      "bytes": 46,
+      "sha256": "c7713b1db4ef32878b387de9589165e91b232aa7a6f17776e59bd4fce4ce4ccf"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/Example/EXAMPLE_GOOGL.en.md",
+      "bytes": 38033,
+      "sha256": "cd1814f414190c1fecd4d13cc4d1affc55db7ed2e8b786e0f1f693a9879fa861"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/Example/EXAMPLE_GOOGL.md",
+      "bytes": 32712,
+      "sha256": "4f8079e8612d4ee6242f17fbfe0a4b2171c1fb488aa3847777c169e1e6ea4d5c"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/Example/EXAMPLE_NVDA.en.md",
+      "bytes": 25765,
+      "sha256": "e7c0e85de9b04ea00b37885cb0a90dd5a71384a8a2ad18a623763349794ba0d0"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/Example/EXAMPLE_NVDA.md",
+      "bytes": 22342,
+      "sha256": "5a8d09cf96003423135084ff6d041503f9eb430d7e04d2781b0dc46f44bd5da7"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/autos-ev.md",
+      "bytes": 16650,
+      "sha256": "66f912dbfa10174896df4686233d6ffffae6f0603ecd6e98e8e2758cca4bd863"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/banks.md",
+      "bytes": 17645,
+      "sha256": "8df77ecbf9a2bf1a4448bafd65107764058be6959e989477a0f3c56c6d38d18d"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/capital-markets.md",
+      "bytes": 5188,
+      "sha256": "a2bdf8682296fe778f02e507eceb7f0d145ee09b699f09486eee9ced67c511d8"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/consumer.md",
+      "bytes": 16884,
+      "sha256": "52ca3a094bc2e134b1a7b7ec7a46e3a402fcab3e86da15de0a0af1c577f243d2"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/energy.md",
+      "bytes": 17741,
+      "sha256": "37637424b05dd1a3cc2e28eef7243840cd3acf7a7eb5386f3f76dc8446e444c1"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/hardware.md",
+      "bytes": 4812,
+      "sha256": "ffdeaecd32d38b123a5a2b09580158644cd55cdc267110de4a721e1573cd0766"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/healthcare-services.md",
+      "bytes": 4720,
+      "sha256": "ef4b8cbb120402215295643345ab9ca5836772f2d97c2eb012063ddcb10a578c"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/industrials.md",
+      "bytes": 16375,
+      "sha256": "df1e040f18e39699ac21c49e7fd835e40ed29d6dd40420c36ac1fe2960a3cef3"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/insurance.md",
+      "bytes": 18058,
+      "sha256": "2ea457a30b0e7166f8859485afc8499aec85ab97bc4ba1dd5f402f11cf8eaa23"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/internet-platform.md",
+      "bytes": 17666,
+      "sha256": "420f6ddde30a7c6285018c9bf9d88535139ac19f26d1b4d001cea4d687c0bdb8"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/media-gaming.md",
+      "bytes": 4625,
+      "sha256": "497d711b508eb726d7b702c25d18680b94f9a56db5b37eb060fb4f9b748c57c7"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/metals-mining.md",
+      "bytes": 16737,
+      "sha256": "3d3092926f2bea36c2459b8a5b17058d2eb07eaad56fe3b88d30bbb6a1e9809d"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/payments-fintech.md",
+      "bytes": 16804,
+      "sha256": "c9bf74a56db0d719a92afe7fad49b6c4dc309eff07400171679074045e6d36aa"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/pharma.md",
+      "bytes": 17450,
+      "sha256": "c2e67d4a8f61f3d5e33f512d8e7b61758a2b23a42820f3d6338d517437f866b2"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/reits.md",
+      "bytes": 16648,
+      "sha256": "ebd1b1fe2c7a7f4ad03bbaa7ffdd3082ccd05422a6d962e977e9f14f55002698"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/saas.md",
+      "bytes": 16582,
+      "sha256": "a87621387806b33f643d4474e72ef79ecad3b1b54fa7b83d80e7082e14fe8f24"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/semiconductors.md",
+      "bytes": 18591,
+      "sha256": "28b0ece67139509f3959cef6226ab29ca33352450eb785b6107f4d5fd10eb702"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/telecom.md",
+      "bytes": 16441,
+      "sha256": "927d8bbf352da64ca418f6f3ca676921878a1e5587f3f9fd10b174920f8d32a3"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/transport.md",
+      "bytes": 16999,
+      "sha256": "aa54a9b862684fffade6de2ef122a7b96d4ff5f8a0ffe1a8f354ddd2f06ab0e3"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/industries/utilities.md",
+      "bytes": 16874,
+      "sha256": "8d7aa83422becbe38300ecb011cbfe4217a80285b84e936cf9837f589d82b5f1"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/LICENSE",
+      "bytes": 1063,
+      "sha256": "5ee65f28dc5ac4431cd5211ab44f1d72f13ea5d399ef7b6fcecb29b32f0c4284"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/README.en.md",
+      "bytes": 240,
+      "sha256": "8828e4e795cf959841d29259a5786c16672d3d93d701222a1d583a14e2e4b13c"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/README.md",
+      "bytes": 22322,
+      "sha256": "cc66f723dff5afd3c2ac19fe0d0fc83f0641fac114e1544f58366ff364a7ee78"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/README.zh-CN.md",
+      "bytes": 19091,
+      "sha256": "e3489f6d766f0f34b67c25cd8c0bf0d4252e49c8575753b0a13512d76c58bfe3"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/references/base-rates.md",
+      "bytes": 3102,
+      "sha256": "67cb42e700e570057434bfd22fdcea972a4cdac1647de8a67971401afd8efb04"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/references/cost-of-capital.md",
+      "bytes": 2131,
+      "sha256": "30339b4db9929b30408c06888563d7eb9878071f42050caa860233dc25200201"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/references/data-sources.md",
+      "bytes": 12954,
+      "sha256": "4d57243381c12f68b823a939528dcb0dbf466109652ec1c00a9c328df48cf6f8"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/references/earnings-mode.md",
+      "bytes": 12556,
+      "sha256": "31b9f700f776a42696c7c2a4294ae5b4f3d4ca9b859ef10135c904cb4bf343a9"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/references/expectations-investing.md",
+      "bytes": 3433,
+      "sha256": "cb54bddbea66c8086562674b4373b7cf7f6c3181c324b2ea9805ab3a1df58d15"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/references/forensic-accounting.md",
+      "bytes": 5729,
+      "sha256": "769448da08ba95c7eea658ff1270e40b6ab1fa0d5f859dd4b8cc37954e5542fc"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/references/industry-routing.md",
+      "bytes": 8746,
+      "sha256": "cb1a51d7fb4beaee3596f950ec45b9d148ea15376eccfdb4843e41cfab0640d4"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/references/industry-rules.json",
+      "bytes": 10871,
+      "sha256": "a7843bff925253d7241007026e3510697522a91f2df2a61d3185c72e55f18e8e"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/references/markets-cn-hk.md",
+      "bytes": 10240,
+      "sha256": "55ac74e1649d66d1db131cafd41b92e221ebbf8e006293626f5811492230a3f2"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/references/output-format.md",
+      "bytes": 6323,
+      "sha256": "b60862972f078827bc31af2faa7762ae14f9daf80186182707b41d7de7cf3860"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/references/report-template.md",
+      "bytes": 7838,
+      "sha256": "d1c4798e76555e298a7a95fa5e6940a6ff50740d59c67f980fcac178e1ef1fdf"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/references/valuation-methods.md",
+      "bytes": 11589,
+      "sha256": "81d01ec1f939fedf113df8a191b5926ef4de26944170c9b98e41e9a4e6cbc484"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/scripts/check_research_output.py",
+      "bytes": 38936,
+      "sha256": "0c15628acd037f5b83c3a04ce8fbbb85fc5af546b290837ab4ea9647d97b4b52"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/scripts/dcf.py",
+      "bytes": 18609,
+      "sha256": "a4aa542a0762c4e50241835defcf6b0f91c5fd5af87e062640fed0f7b54f16cd"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/SKILL.md",
+      "bytes": 12795,
+      "sha256": "25d6df832694fc7a94dae29d2662c796c556a986d9a5ba68d119767c69c80c76"
+    },
+    {
+      "path": "ai-investment-research/vendor/equity-research/tests/test_check_research_output.py",
+      "bytes": 2796,
+      "sha256": "2e154b37a64483f86d41dae20241e30eb1528683d7237d2e79fb0c5cbc377293"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/agents/scenario-analyst.md",
+      "bytes": 6853,
+      "sha256": "cf37bf02bb3cdddcc04ebaeda48ce78a60d640576d2a25372051fc77a0ea3554"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/agents/strategy-reviewer.md",
+      "bytes": 6404,
+      "sha256": "de39a1e6cb480a0f1dd3b7d35bd20c052f482de66c25c97eb7a63de288493e24"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/LICENSE",
+      "bytes": 1068,
+      "sha256": "87c93cde8c3a000c19b0c790cd4f7a4e4cb8da5bc6b11e0939bf6df99e245d15"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/scripts/check_provider_contracts.py",
+      "bytes": 28373,
+      "sha256": "d00ddc5222a2b4d9f9b9f86906e7c60ff7c9620bd64da6b8118b9d09e3e89291"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/scripts/check_skill_catalog.py",
+      "bytes": 24086,
+      "sha256": "92219d0b460632a614e411240bb9d9a0ac8b8a792829059eb172d794549a937e"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/scripts/check_skill_deps.py",
+      "bytes": 38608,
+      "sha256": "115c259500aa53696ffff0d5f1b9d5771b847e87b39de07d6d05bf0394b10881"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/scripts/ci_test_matrix.py",
+      "bytes": 43028,
+      "sha256": "888c18431789319d35099df27471e4cc3c7d43bdfb4956e4e09b98e8c92395e2"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/scripts/fmp_client/compat_v3_to_stable.py.tmpl",
+      "bytes": 5935,
+      "sha256": "c549cf54f9a620577b01af2707aa5832543586616c975cf08265966a677f5b67"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/scripts/fmp_client/core_template.py.tmpl",
+      "bytes": 20101,
+      "sha256": "51a3cd1d614ad62ebc862f11fad5150cda7c91655d957c258119c1e083bb3160"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/scripts/fmp_client/registry.py",
+      "bytes": 12550,
+      "sha256": "cc33ec56ca788479caf125927d71b31c3fdc62ef4f29308cc425540852b6200e"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/scripts/generate_catalog_from_index.py",
+      "bytes": 18996,
+      "sha256": "29ecf77529c35a8b1dae187e8b04c2a08dcfcbdf0eb363bf908cc97c284bb517"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/scripts/generate_fmp_client.py",
+      "bytes": 7377,
+      "sha256": "a4a421dcbec3bd461d1902f8bd00f9e045668cdd6a02b7e3ddd25dc88363a250"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/scripts/provider_contracts.py",
+      "bytes": 22289,
+      "sha256": "0a9d23b75f9024aa347fbce89ffa0bf2a6c320e81f60fce80fed3bf88aaa070b"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/scripts/smoke_contracts_runner.py",
+      "bytes": 8661,
+      "sha256": "5187a2d4171818d79e77e08c90f34e02ae26ae7e3739f4bd34266b12daca8de7"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skill-packages/macro-regime-detector.skill",
+      "bytes": 46672,
+      "sha256": "142e98813c6c2a01889d57d3403ba1f051a4f37f4eeebd0bf58273235453d1a8"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/references/historical_regimes.md",
+      "bytes": 4808,
+      "sha256": "2ae2139002f042e365641f99abfc4eae803c47cac499e678adecc447ca54a4fc"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/references/indicator_interpretation_guide.md",
+      "bytes": 6311,
+      "sha256": "bbf0e06f6e31442765d2f315d68e82af8536e6d32297accdf5ca51e706249dfe"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/references/regime_detection_methodology.md",
+      "bytes": 5445,
+      "sha256": "c8fa6cc47e3726f0da565034fc51e9b9acaad5782cdfc9291a2f7f63dfce3905"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/requirements.txt",
+      "bytes": 33,
+      "sha256": "9d26bfd5639febdd01bce4d287ed386d17934db7a9506c3717b51dd6335f8b84"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/calculators/__init__.py",
+      "bytes": 49,
+      "sha256": "bfda19a3cc7d0f59650edb8fd1eb0bc779c078f11f39931cc52b915c7c9cfec5"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/calculators/concentration_calculator.py",
+      "bytes": 6043,
+      "sha256": "97547b646ef459bebf43f33138fd1abbb4850fdb87042d008c970453be3f1909"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/calculators/credit_conditions_calculator.py",
+      "bytes": 4006,
+      "sha256": "8ad1416af0785b1504941c882b6b5451a1b2c2d05a925edaf9d97f185fdbe1c9"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/calculators/equity_bond_calculator.py",
+      "bytes": 6829,
+      "sha256": "8796ad43a7ad662873199a95d9d08712684d62fc7fa6942bc176f90b73ac4568"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/calculators/sector_rotation_calculator.py",
+      "bytes": 3965,
+      "sha256": "cd6112413e65cb80830853faf573beb9a2aaa4908db3328699a5789fc48ef81e"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/calculators/size_factor_calculator.py",
+      "bytes": 4247,
+      "sha256": "faf6771ae4be9f3fb109ebf9ee59748b50e2a34ad1567a08df6dbb37d8a4a349"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/calculators/utils.py",
+      "bytes": 11482,
+      "sha256": "ca7e904ae57c20900f52b37413a164c5d3817e4e714e034c8f742b4a83bcb9cb"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/calculators/yield_curve_calculator.py",
+      "bytes": 9848,
+      "sha256": "6b8a41a7c3fe7923889384f6f3c9b27d1e82e3b1a6e01f3d1b34649e3d90cfdc"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/fmp_client.py",
+      "bytes": 17957,
+      "sha256": "7c668efe1bcb2985fb405d096f14e065db80c2189f6b70e0d7b47889a1ec9c3a"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/macro_regime_detector.py",
+      "bytes": 12206,
+      "sha256": "101a0455616ce2bc23f29ed65b473c59a2d56019a2b54a13b94139e8441c035f"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/report_generator.py",
+      "bytes": 20405,
+      "sha256": "ad32d8f329fae183b7c7e05107029449291bd632e6ae96930c040c2b4a000cc9"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/scorer.py",
+      "bytes": 20865,
+      "sha256": "6215d012b7e3d3385f649eafdf5006412473d1958281c0ef5d56a66c59e16c25"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/tests/conftest.py",
+      "bytes": 314,
+      "sha256": "4a953a138514847f6a2e8dd5f195e59968fe6ede1e2995d24b6ef226a9b4fb2e"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_concentration.py",
+      "bytes": 3530,
+      "sha256": "e4a08c4228e234bfdf0ba65ffccf0dd8a39358268eabc8612d6a355e885e8cff"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_credit_conditions.py",
+      "bytes": 2267,
+      "sha256": "1b4c21dcf65112a9cb06e3a4aac9038d5d675a825cb132a8055cc1b5d407ba8d"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_equity_bond.py",
+      "bytes": 2786,
+      "sha256": "0861550b0aa0f2f9d0a41ed1ec4b5e9b93e59e39bf21f632f44c7881996aa322"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_fmp_client.py",
+      "bytes": 10522,
+      "sha256": "751f7d036250b12285ee622ebd665981e60dec352c5f159c88a609e905801d1b"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_helpers.py",
+      "bytes": 2592,
+      "sha256": "73121b001cf9813d640cdc69c87f122c607b67c97e36b39615c379a46c603f19"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_main_cli.py",
+      "bytes": 4600,
+      "sha256": "57858214a9fdb3e2e1fce010976c1cbc123b64f9563cfce73dc43cddbb4e355a"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_packaged_deps.py",
+      "bytes": 4387,
+      "sha256": "90184f9db383c3f025ec381ee1b323694ce2340a263c00ee90c3b1bf66864104"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_report_generator.py",
+      "bytes": 11102,
+      "sha256": "d9482dc7cd2f753e8d27f15a110b754d30837a0c987cc261b7a3f7896ede0bfa"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_scorer.py",
+      "bytes": 23759,
+      "sha256": "372a34fc9f41b10da44dc85677e8f1cfc6da21cf8f5a98635820f5437d919e37"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_sector_rotation.py",
+      "bytes": 3326,
+      "sha256": "9e2274da83fcfd13b0e0abc1fec4c54491202351866c7d53dd7c361e0f2d742d"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_size_factor.py",
+      "bytes": 2262,
+      "sha256": "c8860cb87511363074b69273ac2b20f2849cbf647d3a15569a8e708aa462c5b8"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_utils.py",
+      "bytes": 5552,
+      "sha256": "5952364af1d2a204e38ed29e8c46abb132644257c8ede83fd778155317de1322"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/scripts/tests/test_yield_curve.py",
+      "bytes": 6448,
+      "sha256": "d90b6ef17a9d70212e4e5d5ee233af642490023bb542babf99362972e9854d82"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/macro-regime-detector/SKILL.md",
+      "bytes": 4848,
+      "sha256": "a60479b156049b91316757729e25669459f3f7ac83710a17e6dd401a36090108"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/scenario-analyzer/references/headline_event_patterns.md",
+      "bytes": 8059,
+      "sha256": "3dd12e6bfabfccee429185085bfc5aba3aa8e6f84734bc3c085fe9385cf0ccff"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/scenario-analyzer/references/scenario_playbooks.md",
+      "bytes": 8757,
+      "sha256": "46ddbf0ccb6b6b6fba4474e4119a861d4ceb41b6a3a0cbadd055c22891534171"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/scenario-analyzer/references/sector_sensitivity_matrix.md",
+      "bytes": 9760,
+      "sha256": "ac3f3d11bb3b34f3914236d373d8de275a1847d05927bc801869830a97ef25fa"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/scenario-analyzer/scripts/tests/test_skill_contract.py",
+      "bytes": 1450,
+      "sha256": "39b16eda78682a6d72381f9b6a2fe206c1db879dc4072763da755a844858cc2c"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/scenario-analyzer/SKILL.md",
+      "bytes": 10631,
+      "sha256": "d5d970761233ad2b0b93742f86b08565d2515f5675e05343ef8facb569987ba4"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/technical-analyst/assets/analysis_template.md",
+      "bytes": 4607,
+      "sha256": "0f9a703857cbfa08c32ef8c1910ad5519a6e473a4b9bdddc5c984aaa96f115df"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/technical-analyst/references/contrarian-confirmation-checklist.md",
+      "bytes": 15704,
+      "sha256": "2ae0a6900a30f0052f958e6b492eeb5a48b5118c98273e0362cc9dfb1195ee69"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/technical-analyst/references/technical_analysis_framework.md",
+      "bytes": 10987,
+      "sha256": "a530ffebf10c04f28e6e2696ce1f6b0068a74ffc532e67caf7afd0fa28b31465"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/technical-analyst/requirements.txt",
+      "bytes": 128,
+      "sha256": "18b5cfdab437ba11fe037dff1efa4e25c2df2c991e2d07c3490b216ef8bb7b7c"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/technical-analyst/scripts/check_weekly_price_action.py",
+      "bytes": 33193,
+      "sha256": "6b7ba1d8ac60691badc0ed16f797e6f5864968deb8f50f7c983c267bcd4f249d"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/technical-analyst/scripts/tests/test_check_weekly_price_action.py",
+      "bytes": 36258,
+      "sha256": "a180a2ffb7613977645162c41e3c072ba761292036667863e96014a6834dc314"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/technical-analyst/scripts/tests/test_cot_market_vintage.py",
+      "bytes": 5247,
+      "sha256": "f80c913bb06ff984352d2c4b0ceaab58e2fcb030dd70d47d8f1432d88ed52cdb"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/technical-analyst/scripts/tests/test_skill_contract.py",
+      "bytes": 3698,
+      "sha256": "a8643386d0571f4513784ee7ba316d94ae2940fb6a310f925a822d60b2b4f1e6"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/technical-analyst/scripts/tests/test_weekly_price_action.py",
+      "bytes": 36898,
+      "sha256": "1dbc75f21427c0562d19c182699bcda15b8165210f41e9d39fd93fe3d4e71b8a"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/technical-analyst/scripts/weekly_price_action.py",
+      "bytes": 26003,
+      "sha256": "da435fa1b4e94998e4671e4f7dd8a9d6163f823ec12e62e04f1d33a3ec458747"
+    },
+    {
+      "path": "ai-investment-research/vendor/tradermonty/skills/technical-analyst/SKILL.md",
+      "bytes": 19212,
+      "sha256": "7e5fa78475217c4d9cadea14138edeb59c6daf66e6f73160552d7640cbf66de4"
+    }
+  ],
+  "scope": "Installable Skill only. Excludes showcase reports, repository docs, research runs, environments, caches, credentials and proprietary fonts."
+}

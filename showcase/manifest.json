@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0.0",
+  "snapshot_date": "2026-11-13",
+  "description": "Three completed author-created historical research reports prepared from public information. This is an output showcase, not live recommendations or a validated accuracy backtest.",
+  "gallery": {
+    "local_file": "showcase/images/report-gallery.png",
+    "pixels": [
+      1500,
+      820
+    ],
+    "sha256": "0c1a576914d0bd0da832ce94682fbcbb8459a80d161bdf66ba45346fa4d254cc",
+    "method": "Uncropped PDF page 1 from each published report, rasterized with PyMuPDF and composed with Pillow. No AI-generated illustration."
+  },
+  "privacy": {
+    "scope": "PDF standard metadata, XMP, complete text layer, link annotations, PDF object dictionaries, attachment count; known machine username and common path/IP/email/token/prompt patterns.",
+    "result": "No detected local machine paths, private-network addresses, email addresses, known local username, credential patterns or internal prompts in published copies. Zero embedded file attachments.",
+    "limitations": "Automated inspection is pattern-based and text-layer based, not proof that every possible personal datum is absent. Rendering geometry and nonblank images were checked; no full visual-layout review is claimed.",
+    "originals_unchanged": true,
+    "original_locations": "Not published. Source-original SHA-256 values are provided without local filesystem paths.",
+    "excluded_material": "No original corporate PDFs, raw market feeds, datasets, research model files, agent reviews, logs, or internal research workspaces are included."
+  },
+  "responsible_usage": {
+    "purpose": "Learn source attribution, accounting scope, cash conversion, explicit assumptions, risk and conditional validation from completed examples.",
+    "data_status": "Historical numbers and cited facts are retained from the original report snapshot; they were not independently reverified against live sources for this showcase publication.",
+    "no_performance_claim": "No forecast accuracy, win rate, investment return, or backtest-performance claim.",
+    "quote_timing": "The report date does not mean every market, FX and financial observation is as of the same instant. Read each report and market_snapshot entry."
+  },
+  "rights": {
+    "notice": "showcase/NOTICE.md",
+    "authored_material": "Original report prose and author-created charts are offered under the repository MIT license to the extent the contributors hold the rights.",
+    "third_party_material": "Underlying market data, quoted company disclosures, company names/logos, trademarks, and embedded font software remain subject to their respective owners and licenses; MIT does not grant rights in them.",
+    "sources": "Public-source links and report citation IDs are retained; source documents and raw data feeds are not redistributed."
+  },
+  "reports": [
+    {
+      "id": "radiance-09993",
+      "name": "Radiance Holdings (Group) Company Limited",
+      "name_zh": "金辉控股",
+      "ticker": "09993.HK",
+      "market": "Hong Kong / HKEX",
+      "snapshot_date": "2026-11-13",
+      "report_language": "zh-CN",
+      "pages": 40,
+      "figure_count": 24,
+      "source_count": 30,
+      "count_basis": "Figure count checked from image-bearing analysis pages; source count checked from unique appendix IDs, not independent evidence count.",
+      "market_snapshot": {
+        "quote_date": "2026-11-12",
+        "quote_kind": "post-close vendor snapshot",
+        "quote_timestamp": "2026-11-12T16:08:13+08:00",
+        "complete_week_through": "2026-11-06",
+        "fx_reference_date": "2026-10-31",
+        "fx_note": "HKMA historical reference, not contemporaneous spot FX"
+      },
+      "local_files": {
+        "pdf": "showcase/reports/radiance-09993-2026-11-13.pdf",
+        "detail_preview": "showcase/images/radiance-09993-detail-preview.png"
+      },
+      "sha256": "c033ffbc614749b4edc7a61a95f77ecc664af393943d2972bc7a0f3a9a129a12",
+      "source_original_sha256": "b4bd44ee34651d670f31c350cf73ce4f65c4d2ea4b74c19787f78600bfe5f557",
+      "bytes": 2344350,
+      "publication_edits": [
+        {
+          "page": 37,
+          "action": "neutralize private process label; retain research figures, source IDs and public URLs"
+        }
+      ],
+      "preview": {
+        "pages": [
+          16,
+          18
+        ],
+        "pixels": [
+          1500,
+          1118
+        ],
+        "method": "PyMuPDF rasterization of full, uncropped published PDF pages; Pillow side-by-side composition",
+        "sha256": "a162a7e73c1328e5c80ca791a976d5b20ba4e5d129d550fea5ad28eb04986051"
+      },
+      "privacy_scan": {
+        "public_link_annotations": 31,
+        "embedded_files": 0,
+        "privacy_matches": 0,
+        "page_dimensions_points": [
+          595.28,
+          841.89
+        ]
+      },
+      "validation": {
+        "pdf_hash_verified": true,
+        "original_hash_unchanged": true,
+        "cover_and_preview_pages_pixel_identical_to_original_at_half_scale": true,
+        "edited_page_text_within_page_bounds": true
+      }
+    },
+    {
+      "id": "on-holding-onon",
+      "name": "On Holding AG",
+      "name_zh": "On 昂跑",
+      "ticker": "ONON",
+      "market": "United States / NYSE",
+      "snapshot_date": "2026-11-13",
+      "report_language": "zh-CN",
+      "pages": 46,
+      "figure_count": 26,
+      "source_count": 33,
+      "count_basis": "Figure count checked from image-bearing analysis pages; source count checked from unique appendix IDs, not independent evidence count.",
+      "market_snapshot": {
+        "quote_date": "2026-11-12",
+        "quote_kind": "intraday vendor snapshot, not closing price",
+        "quote_timestamp": "2026-11-12T14:30:52-05:00",
+        "complete_week_through": "2026-11-06",
+        "fx_reference_date": "2026-11-06",
+        "fx_note": "FRED DEXSZUS 0.8192 CHF per USD; historical reference, not contemporaneous spot FX"
+      },
+      "local_files": {
+        "pdf": "showcase/reports/on-holding-onon-2026-11-13.pdf",
+        "detail_preview": "showcase/images/on-holding-onon-detail-preview.png"
+      },
+      "sha256": "bce3ce039a10404f5cce2e11005e1c88924d01ac8e58bd64d223769bc52471c6",
+      "source_original_sha256": "44ea37da226d2357765a26046541c6e03c916cb547802efd75a88da393cf8a2c",
+      "bytes": 1875645,
+      "publication_edits": [
+        {
+          "page": 45,
+          "action": "neutralize private process label; retain research figures, source IDs and public URLs"
+        },
+        {
+          "page": 45,
+          "action": "neutralize private process label; retain research figures, source IDs and public URLs"
+        },
+        {
+          "page": 45,
+          "action": "neutralize private process label; retain research figures, source IDs and public URLs"
+        },
+        {
+          "page": 46,
+          "action": "neutralize private process label; retain research figures, source IDs and public URLs"
+        }
+      ],
+      "preview": {
+        "pages": [
+          18,
+          24
+        ],
+        "pixels": [
+          1500,
+          1118
+        ],
+        "method": "PyMuPDF rasterization of full, uncropped published PDF pages; Pillow side-by-side composition",
+        "sha256": "278d8b188d098ebad7041eb7e04d366038c24040f38ecd85390eb94de15054b4"
+      },
+      "privacy_scan": {
+        "public_link_annotations": 36,
+        "embedded_files": 0,
+        "privacy_matches": 0,
+        "page_dimensions_points": [
+          595.28,
+          841.89
+        ]
+      },
+      "validation": {
+        "pdf_hash_verified": true,
+        "original_hash_unchanged": true,
+        "cover_and_preview_pages_pixel_identical_to_original_at_half_scale": true,
+        "edited_page_text_within_page_bounds": true
+      }
+    },
+    {
+      "id": "yonyou-600588",
+      "name": "Yonyou Network Technology Co., Ltd.",
+      "name_zh": "用友网络",
+      "ticker": "600588.SH",
+      "market": "China A-shares / SSE",
+      "snapshot_date": "2026-11-13",
+      "report_language": "zh-CN",
+      "pages": 43,
+      "figure_count": 28,
+      "source_count": 30,
+      "count_basis": "Figure count checked from image-bearing analysis pages; source count checked from unique appendix IDs, not independent evidence count.",
+      "market_snapshot": {
+        "quote_date": "2026-11-12",
+        "quote_kind": "close-price vendor snapshot; vendor update is not auction timestamp",
+        "quote_timestamp": "2026-11-12T16:14:42+08:00",
+        "complete_week_through": "2026-11-06",
+        "fx_reference_date": null,
+        "fx_note": "CNY financials and market quotation; no cross-currency conversion in showcase"
+      },
+      "local_files": {
+        "pdf": "showcase/reports/yonyou-600588-2026-11-13.pdf",
+        "detail_preview": "showcase/images/yonyou-600588-detail-preview.png"
+      },
+      "sha256": "d0a2c2283f8354f1041fc19daa87b613d0e0bd92843f5b3251147685d173b28d",
+      "source_original_sha256": "d0a2c2283f8354f1041fc19daa87b613d0e0bd92843f5b3251147685d173b28d",
+      "bytes": 1972575,
+      "publication_edits": [],
+      "preview": {
+        "pages": [
+          8,
+          22
+        ],
+        "pixels": [
+          1500,
+          1118
+        ],
+        "method": "PyMuPDF rasterization of full, uncropped published PDF pages; Pillow side-by-side composition",
+        "sha256": "ec22e38ac10d9943c14b9889a19be0d1c340d9da234d47f5f8af2b9292e13dab"
+      },
+      "privacy_scan": {
+        "public_link_annotations": 30,
+        "embedded_files": 0,
+        "privacy_matches": 0,
+        "page_dimensions_points": [
+          595.28,
+          841.89
+        ]
+      },
+      "validation": {
+        "pdf_hash_verified": true,
+        "original_hash_unchanged": true,
+        "cover_and_preview_pages_pixel_identical_to_original_at_half_scale": true,
+        "edited_page_text_within_page_bounds": true
+      }
+    }
+  ],
+  "validation": {
+    "local_markdown_link_count": 43,
+    "missing_links_pending_parent": [],
+    "preview_images_geometry_and_nonblank_checked": true,
+    "visual_review": "Not performed: this model does not declare image-input support.",
+    "source_originals_unchanged": true,
+    "public_source_links_retained": true,
+    "historical_claims_live_reverified": false
+  }
+}

@@ -1,0 +1,11 @@
+* text=auto eol=lf
+# Installable source bytes match the archive inventory across fresh clones.
+skills/ai-investment-research/** -text whitespace=cr-at-eol
+# Pinned snapshots stay byte-identical and are not reformatted as patches.
+skills/ai-investment-research/vendor/** -text -diff
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.zip binary
+*.skill binary

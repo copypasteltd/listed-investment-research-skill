@@ -1,0 +1,7 @@
+{
+  "default_project_root": null,
+  "default_output_subdirectory": "reports",
+  "default_language": "zh-CN",
+  "default_formats": ["md", "html", "pdf"],
+  "note": "Use the user's current project when default_project_root is null. Resolve reports/YYYY-MM-DD_topic_unique-id to an absolute run directory and pass it explicitly to research.py init --output. User and project instructions take precedence. These are agent defaults, not background data collection or implicit CLI path selection."
+}

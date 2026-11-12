@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI 上市公司投研"
+  short_description: "整合行业、公司财报估值、事件、周线与宏观研究，交付可追溯报告和前瞻验证记录"
+  default_prompt: "使用 $ai-investment-research 系统研究指定行业及上市公司，生成完整中文报告，并列出未来走势的条件情景、证据、失效条件和验证日期。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,31 @@
+# Local environments and Python cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Generated runs, packaging and local validation
+/reports/
+/ai-investment-research-runs/
+/dist/
+/.validation/
+/build/
+*.log
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+settings.local.json
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Editor / operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
